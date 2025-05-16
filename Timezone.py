@@ -1,7 +1,7 @@
 from datetime import datetime
 import pytz
 
-# List of timezones you want to display
+# List of timezones you want to display Version 2
 timezones = [
     'US/Eastern',
     'US/Central',
@@ -14,7 +14,7 @@ timezones = [
     'Australia/Sydney'
 ]
 
-print("Current Time in Different Timezones:\n")
+print("Current Time in Different Timezone:\n")
 
 for zone in timezones:
     tz = pytz.timezone(zone)
